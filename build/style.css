@@ -1,0 +1,89 @@
+html {
+	background-color: #e7e6d4;
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	color: #30363c;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+h1 {
+	width: 100%;
+	height: 208px;
+	background-image: url(background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-color: #978166;
+	margin: 0;
+	font-family: serif;
+}
+h1 a {
+	margin: 18px 0 0 28px;
+	display: inline-block;
+	font-size: 160%;
+}
+#home img {
+	border-radius: 128px;
+	border: solid 4px #fff;
+}
+#home, #cols {
+	margin-left: 180px;
+}
+#cols {
+	margin-right: 180px;
+	display: flex;
+	flex-direction: row;
+}
+#home {
+	margin-top: -70px;
+}
+h2 {
+	margin-top: 0;
+}
+#legal a, h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+#legal {
+	position: absolute;
+	right: 0;
+	top: 0;
+	list-style-type: none;
+	margin: 8px;
+}
+#legal li {
+	display: inline;
+	margin-left: 8px;
+	background-color: rgba(0,0,0,0.3);
+	padding: 2px;
+}
+#content {
+	background-color: #fff;
+	padding: 30px;
+	flex-grow: 2;
+	margin: -128px 0 32px 0;
+}
+#nav {
+	margin: 0 32px 128px 0;
+	list-style: none;
+	padding: 30px 0;
+	flex-grow: 1;
+}
+#nav li a {
+	text-decoration: none;
+	white-space: nowrap;
+	color: #30363c;
+}
+h2, #nav li.active a {
+	color: #978166;
+}
+#copy {
+	text-align: center;
+	font-size: smaller;
+	font-style: italic;
+}
