@@ -9,9 +9,9 @@ CONTENT=`grep -v '<h2>' $src | ./escape.sh`
 NAVIGATION=`./escape.sh <navigation.html`
 
 while read line; do
-	line=`echo $line | sed -e "s/\\${YEAR}/$YEAR/"`
 	line=`echo $line | sed -e "s/\\${TITLE}/$TITLE/"`
 	line=`echo $line | sed -e "s/\\${CONTENT}/$CONTENT/"`
 	line=`echo $line | sed -e "s/\\${NAVIGATION}/$NAVIGATION/"`
+	line=`echo $line | sed -e "s/\\${YEAR}/$YEAR/"`
 	echo -e $line
 done

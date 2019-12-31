@@ -87,3 +87,8 @@ h2, #nav li.active a {
 	font-size: smaller;
 	font-style: italic;
 }
+.important {
+	border: 2px solid black;
+	font-weight: 800;
+	padding: 10px;
+}
