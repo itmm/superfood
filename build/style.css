@@ -75,6 +75,9 @@ h2 {
 	padding: 30px 0;
 	flex-grow: 1;
 }
+#nav li {
+	margin-bottom: 8px;
+}
 #nav li a {
 	text-decoration: none;
 	white-space: nowrap;
@@ -92,4 +95,8 @@ h2, #nav li.active a {
 	border: 2px solid black;
 	font-weight: 800;
 	padding: 10px;
+}
+th {
+	text-align: left;
+	vertical-align: top;
 }
